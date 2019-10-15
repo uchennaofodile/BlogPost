@@ -1,10 +1,15 @@
 /* Header */
 /* Body */
-html {
-    background-color: lavender;
-}
-P {
-    color: blue;
+html { 
+    background: url("graffiti.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: whitesmoke;
+  }
+h1 {
+    font-size: 20px;
 }
 h6 {
     display: inline;
