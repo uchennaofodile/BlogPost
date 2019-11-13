@@ -1,19 +1,45 @@
 /* Header */
 /* Body */
-html { 
-    background: url("graffiti.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: whitesmoke;
-  }
-h1 {
-    font-size: 20px;
+html {
+  background: url("graffiti.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: whitesmoke;
+}
+h1,
+html {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
 }
 h6 {
-    display: inline;
+  display: inline;
 }
 input {
-    display: block;
+  display: block;
+}
+
+.container {
+  display: inline-block;
+}
+
+.fav {
+  display: inline;
+  float: right;
+}
+audio {
+  width: 600px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 90px;
+  transform: scale(1.05);
+  margin: 10px;
+}
+#submit {
+  margin: 0px;
+  display: inline-block;
+}
+h2,
+h3 {
+  font-size: 20px;
 }
